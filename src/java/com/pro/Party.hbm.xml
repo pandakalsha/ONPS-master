@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22 Apr, 2015 3:48:22 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.pro.Party" table="party" catalog="test" optimistic-lock="version">
+        <id name="regId" type="int">
+            <column name="regId" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="45" not-null="true" />
+        </property>
+        <property name="voteN" type="int">
+            <column name="voteN" not-null="true" />
+        </property>
+        <property name="symbol" type="string">
+            <column name="symbol" length="45" not-null="true" />
+        </property>
+        <property name="candidateN" type="int">
+            <column name="candidateN" not-null="true" />
+        </property>
+        <property name="ideology" type="string">
+            <column name="ideology" length="256" not-null="true" />
+        </property>
+        <set name="candidates" table="candidate" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="regId" not-null="true" />
+            </key>
+            <one-to-many class="com.pro.Candidate" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22 Apr, 2015 3:48:22 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.pro.User" table="user" catalog="test" optimistic-lock="version">
+        <id name="userId" type="int">
+            <column name="userId" />
+            <generator class="assigned" />
+        </id>
+        <property name="pass" type="string">
+            <column name="pass" length="45" not-null="true" />
+        </property>
+        <property name="dob" type="timestamp">
+            <column name="dob" length="19" not-null="true" />
+        </property>
+        <property name="mobNo" type="string">
+            <column name="mobNo" length="10" not-null="true" />
+        </property>
+        <property name="cid" type="int">
+            <column name="cid" not-null="true" />
+        </property>
+        <property name="voted" type="string">
+            <column name="voted" length="1" not-null="true" />
+        </property>
+        <property name="active" type="string">
+            <column name="active" length="1" not-null="true" />
+        </property>
+        <property name="new_" type="string">
+            <column name="new" length="1" not-null="true" />
+        </property>
+        <property name="name" type="string">
+            <column name="name" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,98 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#box {
+    float: left;
+    height: 566px;
+    margin-left: 31.732872%;
+    margin-top: 70px;
+    clear: none;
+    width: 40.517189%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 31px 3px inset;
+    box-shadow: rgb(0, 0, 0) 0px 0px 31px 3px inset;
+    background-color: rgb(255, 255, 255);
+}
+
+#box1 {
+    float: left;
+    height: 56px;
+    margin-left: 6.79015%;
+    margin-top: 37px;
+    clear: none;
+    width: 85.5387%;
+}
+
+#box2 {
+    float: left;
+    height: 56px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 62.529763%;
+    background-color: rgba(105, 172, 185, 0.278431);
+    -webkit-box-shadow: rgb(0, 0, 0) 1px -1px 3px 0px inset;
+    box-shadow: rgb(0, 0, 0) 1px -1px 3px 0px inset;
+}
+
+#input {
+    float: left;
+    height: 35px;
+    font-size: 1em;
+    margin-left: 1.74816%;
+    margin-top: 10px;
+    clear: none;
+    width: 13.485804%;
+    background-color: rgb(147, 9, 9);
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    border-bottom-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+    border-color: rgb(147, 9, 9);
+    -webkit-box-shadow: rgb(0, 0, 0) -2px 3px 4px 1px;
+    box-shadow: rgb(0, 0, 0) -2px 3px 4px 1px;
+}
+
+#input2 {
+    float: left;
+    height: 35px;
+    font-size: 1em;
+    margin-left: 1.74816%;
+    margin-top: 10px;
+    clear: none;
+    width: 13.485804%;
+    background-color: rgb(255, 0, 0);
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    border-bottom-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+    border-color: rgb(255, 0, 0);
+    -webkit-box-shadow: rgb(0, 0, 0) -2px 3px 4px 1px;
+    box-shadow: rgb(0, 0, 0) -2px 3px 4px 1px;
+}
+
+#input1 {
+    float: left;
+    height: 36px;
+    font-size: 1em;
+    margin-left: 1.660533%;
+    margin-top: 10px;
+    clear: none;
+    width: 20.579215%;
+    background-color: rgb(34, 13, 124);
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+    border-bottom-right-radius: 52px;
+    border-bottom-left-radius: 52px;
+    -webkit-box-shadow: rgb(16, 6, 60) 3px -3px 8px 3px inset;
+    box-shadow: rgb(16, 6, 60) 3px -3px 8px 3px inset;
+}
+
